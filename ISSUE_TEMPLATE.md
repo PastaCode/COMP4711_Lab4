@@ -2,10 +2,10 @@
 
 
 
-### Steps to reproduce the problem.
+### How to fix the problem.
 
 
 
-### Specifications like the version of the project, operating system, or hardware.
+### Requirements for fixing problem.
 
 
