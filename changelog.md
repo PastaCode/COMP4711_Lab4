@@ -7,4 +7,4 @@
 #
 
 September 29, 2016
-  - Made the changelog
+  - Made the changelog.
