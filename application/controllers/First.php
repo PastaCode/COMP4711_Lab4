@@ -18,20 +18,10 @@ class First extends Application
             // this is the view we want shown
             $this->data['pagebody'] = 'justone';
                 
+            // Load the data from the first author, store in data array
             $record = $this->quotes->first();
             $this->data = array_merge($this->data, $record);
 
             $this->render();
 	}
-
-        public function wut()
-        {
-                       // this is the view we want shown
-            $this->data['pagebody'] = 'justone';
-                
-            $record = $this->quotes->last();
-            $this->data = array_merge($this->data, $record);
-
-            $this->render(); 
-        }
 }
