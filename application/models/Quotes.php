@@ -44,7 +44,12 @@ class Quotes extends CI_Model {
 	// retrieve all of the quotes
 	public function all()
 	{
-		return $this->data;
+            return $this->data;
 	}
-
+        
+        // retireve the first authour's data
+        public function first()
+        {
+            return $this->data[0];
+        }
 }
