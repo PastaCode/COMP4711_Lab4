@@ -28,4 +28,19 @@ class Welcome extends Application
 
         $this->render();
     }
+    
+    /**
+     * A page that contains Elayne Boosler's quote and image
+     */
+    public function shucks()
+    {
+        // this is the view we want shown
+        $this->data['pagebody'] = 'justone';
+
+        // Load the data of Elayne Boosler, store in data array
+        $record = $this->quotes->get(2);
+        $this->data = array_merge($this->data, $record);
+
+        $this->render();
+    }
 }

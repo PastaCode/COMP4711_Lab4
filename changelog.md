@@ -37,3 +37,11 @@ September 30, 2016:
     - Setup a wildcard routing: sleep -> first/zzz.
 
     - Fix changelog spacing.
+
+September 30, 2016:
+
+    - Fixed "lock/em/up" image.
+    
+    - Setup a wildcard routing: lock/*/* -> welcome/shucks.
+
+    - Fix some comment wordings.

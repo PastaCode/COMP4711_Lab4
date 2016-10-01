@@ -10,7 +10,7 @@ class First extends Application
     }
 
     /**
-     * Homepage for our app
+     * A page that contains Bob Monkhouse's quote and image
      */
     public function index()
     {
@@ -24,6 +24,9 @@ class First extends Application
         $this->render();
     }
     
+    /**
+     * A page that contains Bob Monkhouse's quote and image
+     */
     public function zzz()
     {
         // this is the view we want shown
