@@ -18,7 +18,7 @@ class Welcome extends Application
         $this->data['pagebody'] = 'justone';
 
         // Load the data from the last author, store in data array
-        $record = $this->quotes->last();
+        $record = $this->quotes->get(6);
         $this->data = array_merge($this->data, $record);
 
         $this->render();
