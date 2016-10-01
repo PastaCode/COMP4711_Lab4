@@ -38,4 +38,19 @@ class First extends Application
 
         $this->render();
     }
+    
+    /**
+     * A page that contains a quote and image based on the parameter id
+     */
+    public function gimme($id)
+    {
+        // this is the view we want shown
+        $this->data['pagebody'] = 'justone';
+
+        // Load the data of the id of the author, store in data array
+        $record = $this->quotes->get($id);
+        $this->data = array_merge($this->data, $record);
+
+        $this->render();
+    }
 }
