@@ -46,16 +46,4 @@ class Quotes extends CI_Model {
 	{
             return $this->data;
 	}
-        
-        // retrieve the first authour's data
-        public function first()
-        {
-            return $this->data[0];
-        }
-        
-        // retrieve the last authour's data
-        public function last()
-        {
-            return $this->data[5];
-        }
 }
