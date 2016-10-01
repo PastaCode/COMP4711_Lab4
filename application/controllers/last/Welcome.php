@@ -10,7 +10,7 @@ class Welcome extends Application
     }
     
     /**
-    * Homepage for our app
+    * A page that contains Isaac Asimov's quote and image
     */
     public function index() 
     {
