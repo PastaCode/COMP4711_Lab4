@@ -42,6 +42,12 @@ September 30, 2016:
 
     - Fixed "lock/em/up" image.
     
-    - Setup a wildcard routing: lock/*/* -> welcome/shucks.
+    - Setup a wildcard routing: lock/(.*)/(.*) -> welcome/shucks.
 
     - Fix some comment wordings.
+
+October 1, 2016:
+
+    - Fixed "show/3" image.
+    
+    - Setup a wildcard routing: show/(:num) -> first/gimme/$1.
