@@ -51,3 +51,7 @@ October 1, 2016:
     - Fixed "show/3" image.
     
     - Setup a wildcard routing: show/(:num) -> first/gimme/$1.
+
+October 2, 2016:
+
+    - Added routing to Anonymous quote. Leads to a very handsome image. 
