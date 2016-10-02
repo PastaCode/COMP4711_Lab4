@@ -61,3 +61,7 @@ October 2, 2016:
     - Created Bingo controller to handle 'justone' for Socrates
 
     - Applied routing rule to Socrates
+
+October 2, 2016:
+
+    - Added routing to Isaac Asimov. comp#/* goes to his quote. 
