@@ -55,3 +55,11 @@ $route['translate_uri_dashes'] = FALSE;
 $route['sleep'] = 'first/zzz';
 $route['lock/(.*)/(.*)'] = 'welcome/shucks';
 $route['show/(:num)'] = 'first/gimme/$1';
+$route['dunno'] = function() {
+	$source = './pix/suprise.jpg'; // an image you provide
+	// set the mime type for that image
+	header("Content-type: image/jpeg"); 
+	header('Content-Disposition: inline');
+	readfile($source); // dish it
+	die(); // and we don't have to go any further
+};
