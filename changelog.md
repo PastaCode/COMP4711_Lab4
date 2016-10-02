@@ -65,3 +65,8 @@ October 2, 2016:
 October 2, 2016:
 
     - Added routing to Isaac Asimov. comp#/* goes to his quote. 
+
+October 2, 2016:
+
+    - Added replace hook
+
