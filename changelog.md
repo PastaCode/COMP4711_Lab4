@@ -55,3 +55,9 @@ October 1, 2016:
 October 2, 2016:
 
     - Added routing to Anonymous quote. Leads to a very handsome image. 
+
+October 2, 2016:
+
+    - Created Bingo controller to handle 'justone' for Socrates
+
+    - Applied routing rule to Socrates
