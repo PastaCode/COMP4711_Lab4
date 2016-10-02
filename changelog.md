@@ -55,3 +55,7 @@ October 1, 2016:
 October 2, 2016:
 
     - Added routing to Anonymous quote. Leads to a very handsome image. 
+
+October 2, 2016:
+
+    - Added routing to Isaac Asimov. comp#/* goes to his quote. 
